@@ -1,0 +1,17 @@
+{
+  "name": "express-mongodb-docker",
+  "version": "1.0.0",
+  "description": "A simple Todo API using Express, MongoDB and Docker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+} 
